@@ -5,3 +5,7 @@ Content-Type: application/json
   "title": "Exemplo de hábito",
   "habitWeekDays": [0, 1, 4]
 }
+
+###
+
+GET http://localhost:3333/day?date=2023-01-16T03:00:00.00z
