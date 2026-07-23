@@ -1,0 +1,7 @@
+POST http://localhost:3333/habits
+Content-Type: application/json
+
+{
+  "title": "Exemplo de hábito",
+  "habitWeekDays": [0, 1, 4]
+}
