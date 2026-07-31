@@ -11,3 +11,6 @@ GET http://localhost:3333/day?date=2023-01-16T03:00:00.00z
 
 ###
 PATCH  http://localhost:3333/habits/00880d75-a933-4fef-94ab-e05744435297/toggle
+
+###
+GET http://localhost:3333/summary
