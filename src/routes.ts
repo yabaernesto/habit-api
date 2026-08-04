@@ -28,6 +28,8 @@ export async function appRoutes(app: FastifyInstance) {
         },
       },
     });
+
+    return reply.status(201).send();
   });
 
   app.get("/day", async (request, reply) => {
